@@ -1,0 +1,54 @@
+﻿@model LMS.Models.Borrowing
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Borrowing</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="BorrowingID" />
+            <div class="form-group">
+                <label asp-for="MyProperty" class="control-label"></label>
+                <input asp-for="MyProperty" class="form-control" />
+                <span asp-validation-for="MyProperty" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BookID" class="control-label"></label>
+                <input asp-for="BookID" class="form-control" />
+                <span asp-validation-for="BookID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StudentID" class="control-label"></label>
+                <input asp-for="StudentID" class="form-control" />
+                <span asp-validation-for="StudentID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateBorrowed" class="control-label"></label>
+                <input asp-for="DateBorrowed" class="form-control" />
+                <span asp-validation-for="DateBorrowed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateRetuened" class="control-label"></label>
+                <input asp-for="DateRetuened" class="form-control" />
+                <span asp-validation-for="DateRetuened" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

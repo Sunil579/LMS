@@ -16,6 +16,46 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\bison\OneDrive\Documents\GitHub\LMS\LMS
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Books/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Books/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Books/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Books/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Books/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Borrowings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93aW5nc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Borrowings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93aW5nc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Borrowings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93aW5nc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Borrowings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93aW5nc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Borrowings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9ycm93aW5nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,12 +64,92 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Librarians/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Librarians/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Librarians/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Librarians/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Librarians/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Reports/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Reports/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Reports/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Reports/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Reports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Students/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Students/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Students/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Students/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Students/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Transactions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Transactions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Transactions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Transactions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/Transactions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bison/OneDrive/Documents/GitHub/LMS/LMS/Views/_ViewImports.cshtml]

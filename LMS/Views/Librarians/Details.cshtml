@@ -1,0 +1,54 @@
+﻿@model LMS.Models.Librarian
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Librarian</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LibrarianName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LibrarianName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LibrarianEmail)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LibrarianEmail)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LibrarianPhoneNum)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LibrarianPhoneNum)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LibrarianRole)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LibrarianRole)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LUsername)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LUsername)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LPassword)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LPassword)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.LibrarianID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

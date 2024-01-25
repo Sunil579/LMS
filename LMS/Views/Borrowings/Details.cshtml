@@ -1,0 +1,48 @@
+﻿@model LMS.Models.Borrowing
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Borrowing</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MyProperty)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MyProperty)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BookID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BookID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StudentID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StudentID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateBorrowed)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateBorrowed)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateRetuened)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateRetuened)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.BorrowingID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

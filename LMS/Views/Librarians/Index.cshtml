@@ -1,0 +1,65 @@
+﻿@model IEnumerable<LMS.Models.Librarian>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LibrarianName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LibrarianEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LibrarianPhoneNum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LibrarianRole)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LUsername)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LPassword)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LibrarianName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LibrarianEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LibrarianPhoneNum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LibrarianRole)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LUsername)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LPassword)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.LibrarianID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.LibrarianID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.LibrarianID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

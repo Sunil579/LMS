@@ -1,0 +1,59 @@
+﻿@model IEnumerable<LMS.Models.Borrowing>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MyProperty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateBorrowed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateRetuened)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MyProperty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateBorrowed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateRetuened)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.BorrowingID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.BorrowingID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.BorrowingID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
