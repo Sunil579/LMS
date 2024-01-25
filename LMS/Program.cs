@@ -1,7 +1,13 @@
+using LMS.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<LibraryManagementSystemContext>(options => options.UseSqlServer(
+    builder.Configuration.GetConnectionString("DefaultConnection") ??
+    throw new InvalidOperationException("Connection string 'LibraryManagementSystemContext' not found.")));
 
 var app = builder.Build();
 

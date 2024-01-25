@@ -10,7 +10,7 @@ namespace LMS.Models
     {
 
         public int TransactionID { get; set; }
-        public String TransactionNAme { get; set; }
+        public String? TransactionNAme { get; set; }
         public int BorrowingID { get; set; }
         public int StudentID { get; set; }
         public DateTime TransDate { get; set; }
